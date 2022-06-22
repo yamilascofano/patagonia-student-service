@@ -63,12 +63,12 @@ public class StudentController {
         return studentService.mostrarDatos();
     }
 
-    @GetMapping("listarMayores")
+    @GetMapping("/listarMayores")
     public List<Student> listarMayores() {
         return studentService.listarMayores();
     }
 
-    @GetMapping("listarMenores")
+    @GetMapping("/listarMenores")
     public List<Student> listarMenores() {
         return studentService.listarMenores();
     }
